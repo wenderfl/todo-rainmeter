@@ -52,7 +52,7 @@ X=r
 Y=34R
 ToolTipText="Configurações"
 MouseOverAction=[!SetOption MeterSettings FontColor "#HoverColor#"][!UpdateMeter MeterSettings][!Redraw]
-MouseLeaveAction=[!SetOption MeterSettings FontColor "255,255,255,255,10"][!UpdateMeter MeterSettings][!Redraw]
+MouseLeaveAction=[!SetOption MeterSettings FontColor "255,255,255,255,200"][!UpdateMeter MeterSettings][!Redraw]
 LeftMouseUpAction=[!ToggleConfig "rainmeter-todo-list\config" "config.ini"]
 [MeterTaskIcon1]
 Meter=String
@@ -68,7 +68,7 @@ ToolTipText="Concluir"
 LeftMouseUpAction=[!CommandMeasure "MeasureDynamicTasks" "CheckLine(1)"][!Delay 30][!RefreshGroup ToDoList]
 [MeterTaskText1]
 Meter=String
-Text=Pescar
+Text=PESCAR
 FontFace=Segoe UI
 FontSize=(30 * [MeasureScale])
 StringStyle=Bold
@@ -87,14 +87,14 @@ Meter=String
 Text=#fa-trash#
 FontFace=FontAwesome
 FontSize=25
-FontColor=255,255,255,255,10
+FontColor=220,70,70,140
 SolidColor=0,0,0,1
 AntiAlias=1
 X=662
 Y=54
 ToolTipText="Excluir tarefa"
 MouseOverAction=[!SetOption MeterDeleteTask1 FontColor "255,80,80,255"][!UpdateMeter MeterDeleteTask1][!Redraw]
-MouseLeaveAction=[!SetOption MeterDeleteTask1 FontColor "255,255,255,255,10"][!UpdateMeter MeterDeleteTask1][!Redraw]
+MouseLeaveAction=[!SetOption MeterDeleteTask1 FontColor "220,70,70,140"][!UpdateMeter MeterDeleteTask1][!Redraw]
 LeftMouseUpAction=[!CommandMeasure "MeasureDynamicTasks" "DeleteLine(1)"][!Delay 30][!RefreshGroup ToDoList]
 [MeterInputAnchor]
 Meter=String
