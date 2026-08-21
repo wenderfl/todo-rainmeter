@@ -52,7 +52,7 @@ X=r
 Y=13R
 ToolTipText="Settings"
 MouseOverAction=[!SetOption MeterSettings FontColor "#HoverColor#"][!UpdateMeter MeterSettings][!Redraw]
-MouseLeaveAction=[!SetOption MeterSettings FontColor "255,255,255,180"][!UpdateMeter MeterSettings][!Redraw]
+MouseLeaveAction=[!SetOption MeterSettings FontColor "255,255,255,200"][!UpdateMeter MeterSettings][!Redraw]
 LeftMouseUpAction=[!ToggleConfig "rainmeter-todo-list\config" "config.ini"]
 [MeterTaskIcon1]
 Meter=String
