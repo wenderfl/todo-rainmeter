@@ -7,98 +7,98 @@
   <img src="https://img.shields.io/badge/Design-Minimalist%20Glassmorphism-purple?style=for-the-badge" alt="Design" />
 </p>
 
-Uma skin moderna, ultra-minimalista e ergonômica de lista de tarefas (**To-Do List**) para o **[Rainmeter](https://www.rainmeter.net/)**. Projetada com foco em estética limpa para a área de trabalho, dimensionamento proporcional automático, animações orgânicas configuráveis, seletor de cores nativo e painel de controle completo.
+A modern, ultra-minimalist, and ergonomic **To-Do List** desktop skin for **[Rainmeter](https://www.rainmeter.net/)**. Designed with clean desktop aesthetics, automatic mathematical proportional scaling, configurable organic animations, a native Windows RGB color picker, and a comprehensive settings panel.
 
 ---
 
-## ✨ Principais Recursos
+## ✨ Key Features
 
-### 🎨 Visual & Ergonomia
-- **Design Minimalista:** Interface limpa e flutuante no desktop, sem caixas pesadas ou elementos desnecessários.
-- **Fundo Transparente & Vidro Escuro:** Suporte a painel translúcido elegante (*dark glassmorphism*) ou fundo 100% transparente.
-- **Dimensionamento Proporcional Matemático:** Ao alterar o tamanho da fonte (`AppFontSize`), todos os elementos visuais (espaçamentos, ícones, checkboxes, botões laterais e campo de entrada) recalculam-se automaticamente em escala harmônica.
-- **Alinhamento Óptico Centralizado:** O checkbox de conclusão e o texto da tarefa repousam na mesma linha de centro visual.
-- **Texto em Negrito (Bold):** Alternador rápido para ativar/desativar estilo em negrito nas tarefas.
+### 🎨 Visuals & Ergonomics
+- **Minimalist Desktop Design:** Clean, distraction-free floating widget without heavy boxes or visual clutter.
+- **Transparent & Glassmorphism Modes:** Choose between a sleek dark translucent glass card or a 100% transparent background.
+- **Mathematical Proportional Scaling:** Changing the font size (`AppFontSize`) automatically and harmoniously recalculates all geometric dimensions (row heights, paddings, checkbox sizes, action icons, trash bins, and input text bounds).
+- **Centered Optical Alignment:** Checkbox glyphs and task text share the exact optical midline across all font sizes and styles.
+- **Bold Text Toggle:** Instant switch to enable or disable bold task typography.
 
-### 🌊 Animações & Fluidez
-- **Mudança de Escala Orgânica (Respiração):** O texto das tarefas e os checkboxes realizam um sutil pulso em escala configurável a 60 FPS.
-- **Oscilação Vertical:** Flutuação suave para cima e para baixo nas tarefas.
-- **Estabilidade nos Cliques:** A barra lateral de ações e o card de fundo permanecem 100% ancorados e estáticos; os checkboxes acompanham a escala mas mantêm o eixo Y firme para cliques precisos.
+### 🌊 Animations & Fluidity
+- **Organic Scale Pulse (Breathing Effect):** Tasks and checkboxes feature a subtle, smooth scale breathing animation rendered at 60 FPS.
+- **Vertical Floating Oscillation:** Configurable floating effect for tasks.
+- **Click Stability:** The background container and sidebar action column stay 100% anchored and static; checkboxes scale harmoniously while locking their Y-axis for crisp, reliable clicking.
 
-### ⚙️ Painel de Configurações Completo
-- **13 Opções Interativas com Efeito Hover:**
-  - `Fonte`: Edição in-place com clique direto (Segoe UI, Roboto, Inter, etc.).
-  - `Tamanho`: Dimensionamento dinâmico de toda a skin.
-  - `Texto em Negrito`: Alternador rápido (*ATIVADO/DESATIVADO*).
-  - `Cor do Texto`: Abre a **Caixa de Diálogo de Cores RGB nativa do Windows** (ou digitação manual com clique direito).
-  - `Largura`: Ajuste de largura da skin.
-  - `Cor de Fundo`: Abre o seletor de cores RGB para o fundo.
-  - `Opacidade Fundo`: Controle de transparência de `0` a `255`.
-  - `Fundo Transparente`: Alternador rápido (*ON/OFF*).
-  - `Opacidade Botões`: Controle de discrição dos botões de ação laterais (`0` a `255`, com realce automático ao passar o mouse).
-  - `Estilo Checkbox`: Alternância entre caixas quadradas e círculos.
-  - `Efeitos Sonoros`: Alternador de áudio para conclusão e exclusão de tarefas.
-  - `Oscilar Tarefas`: Ajuste de amplitude da flutuação.
-  - `Escalar Tarefas`: Ajuste de amplitude do efeito de pulso/respiração.
-- **Recarregamento Automático:** Sempre que o menu de configurações for fechado, a skin atualiza e recarrega instantaneamente.
+### ⚙️ Interactive Settings Modal
+- **13 Interactive Configuration Rows with Hover Highlights:**
+  - `Font`: In-place input to set any installed font family (*Segoe UI, Roboto, Inter, Arial, etc.*).
+  - `Size`: Proportional dynamic resizing of the entire widget.
+  - `Bold Text`: Fast toggle (*ENABLED / DISABLED*).
+  - `Text Color`: Opens the **native Windows RGB ColorDialog Picker** (or right-click to enter RGB values manually).
+  - `Width`: Adjust widget width in pixels.
+  - `Background Color`: Opens the native Windows RGB Color Picker for panel background.
+  - `Background Opacity`: Fine-tuned transparency slider from `0` to `255`.
+  - `Transparent Background`: One-click toggle (*ON / OFF*).
+  - `Buttons Opacity`: Discrete visibility control for action icons (`0` to `255`, with auto-reveal on hover).
+  - `Checkbox Style`: Switch between square boxes and circular check marks.
+  - `Sound Effects`: Audio toggle for task completion and deletion chimes.
+  - `Task Oscillation`: Amplitude control for vertical floating motion.
+  - `Task Scale Pulse`: Amplitude control for text breathing animation.
+- **Auto-Refresh on Close:** Whenever the settings window is dismissed, the To-Do skin automatically recalculates metrics and refreshes in real-time.
 
 ---
 
-## 🕹️ Atalhos & Controles da Barra Lateral
+## 🕹️ Sidebar Controls & Shortcuts
 
-Ao lado direito da lista de tarefas, você encontra a coluna de ações discretas:
+The subtle action column positioned on the right provides quick one-click actions:
 
-| Ícone | Ação | Descrição |
+| Icon | Action | Description |
 | :---: | :--- | :--- |
-| `+` | **Adicionar** | Abre a caixa de texto para digitar e salvar uma nova tarefa (`Enter` salva, `Esc` cancela). |
-| `fa-refresh` | **Recarregar** | Sincroniza a lista e recarrega os elementos visuais. |
-| `fa-trash` | **Limpar Concluídas** | Remove todas as tarefas marcadas como concluídas com 1 clique. |
-| `fa-cog` | **Configurações** | Abre o painel moderno de personalização da skin. |
+| `+` | **Add Task** | Opens the in-place text input field (`Enter` saves, `Esc` cancels). |
+| `fa-refresh` | **Refresh** | Manually synchronizes tasks and re-renders visual meters. |
+| `fa-trash` | **Clear Completed** | Instantly purges all checked tasks in one click. |
+| `fa-cog` | **Settings** | Opens the customization panel. |
 
 ---
 
-## 📥 Instalação
+## 📥 Installation
 
-1. Certifique-se de ter o **[Rainmeter](https://www.rainmeter.net/)** (versão 4.5 ou superior) instalado.
-2. Clone ou faça o download deste repositório na pasta de skins do Rainmeter:
+1. Ensure **[Rainmeter](https://www.rainmeter.net/)** (version 4.5 or newer) is installed.
+2. Clone or download this repository directly into your Rainmeter skins directory:
    ```bash
    git clone https://github.com/wenderfl/todo-rainmeter.git "%USERPROFILE%\Documents\Rainmeter\Skins\rainmeter-todo-list"
    ```
-3. Abra o gerenciador do **Rainmeter**, clique em **Refresh all**.
-4. Localize `rainmeter-todo-list` > `todo` > `todo.ini` e clique em **Carregar** (*Load*).
+3. Open the **Rainmeter Manage** window and click **Refresh all**.
+4. Navigate to `rainmeter-todo-list` > `todo` > `todo.ini` and click **Load**.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```text
 rainmeter-todo-list/
 ├── @Resources/
-│   ├── DynamicMeters.inc       # Medidores gerados dinamicamente
-│   ├── FontAwesome.inc         # Mapeamento Unicode de glifos FontAwesome
-│   ├── Variables.inc           # Configurações e variáveis ativas da skin
-│   ├── MeasureDynamicTasks.lua # Backend em Lua: processamento de JSON, métricas e animações
-│   ├── pick_color.ps1          # Script PowerShell para abrir a Caixa de Diálogo de Cores RGB do Windows
-│   ├── json.lua                # Parser JSON rápido em Lua
-│   ├── complete.wav            # Efeito sonoro de conclusão
-│   └── delete.wav              # Efeito sonoro de exclusão
+│   ├── DynamicMeters.inc       # Dynamically generated meters
+│   ├── FontAwesome.inc         # Unicode mappings for FontAwesome glyphs
+│   ├── Variables.inc           # Active configuration variables
+│   ├── MeasureDynamicTasks.lua # Lua backend: JSON parser, dynamic metrics, and animations
+│   ├── pick_color.ps1          # PowerShell helper for Windows native RGB ColorDialog
+│   ├── json.lua                # Lightweight Lua JSON library
+│   ├── complete.wav            # Task completion sound effect
+│   └── delete.wav              # Task deletion sound effect
 ├── config/
-│   └── config.ini              # Interface do painel de configurações
+│   └── config.ini              # Settings modal user interface
 ├── todo/
-│   ├── tasks.json              # Arquivo de armazenamento das tarefas
-│   └── todo.ini                # Widget principal da lista de tarefas
-└── README.md                   # Documentação do projeto
+│   ├── tasks.json              # Persistent task data storage
+│   └── todo.ini                # Main To-Do widget
+└── README.md                   # Project documentation
 ```
 
 ---
 
-## 👏 Créditos & Referências
+## 👏 Credits & Acknowledgements
 
-- Este projeto foi inspirado e baseado no trabalho original de **[alperenozlu/rainmeter-todo](https://github.com/alperenozlu/rainmeter-todo)**.
-- Agradecimentos à comunidade do **Rainmeter** e aos desenvolvedores dos pacotes de fontes **FontAwesome**.
+- This project is inspired by and based on the original work by **[alperenozlu/rainmeter-todo](https://github.com/alperenozlu/rainmeter-todo)**.
+- Thanks to the **Rainmeter** community and the creators of the **FontAwesome** icon suite.
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto é disponibilizado sob a licença [MIT](LICENSE).
+This project is licensed under the [MIT](LICENSE) License.
