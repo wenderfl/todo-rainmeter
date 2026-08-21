@@ -1,14 +1,16 @@
-<h1 align="center">📝 Rainmeter To-Do List Pro</h1>
+<h1 align="center">Rainmeter To-Do List Pro</h1>
+
+
+
+<p align="center">
+  <img src="assets/preview.jpg" alt="Rainmeter To-Do List Pro Showcase" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rainmeter-Skin-blue?style=for-the-badge&logo=windows" alt="Rainmeter Skin" />
   <img src="https://img.shields.io/badge/Language-Lua%20%7C%20Rainmeter%20INI-orange?style=for-the-badge" alt="Languages" />
   <img src="https://img.shields.io/badge/Icons-FontAwesome-cyan?style=for-the-badge" alt="FontAwesome" />
   <img src="https://img.shields.io/badge/Design-Minimalist%20Glassmorphism-purple?style=for-the-badge" alt="Design" />
-</p>
-
-<p align="center">
-  <img src="assets/preview.jpg" alt="Rainmeter To-Do List Pro Showcase" width="100%" />
 </p>
 
 A modern, ultra-minimalist, and ergonomic **To-Do List** desktop skin for **[Rainmeter](https://www.rainmeter.net/)**. Designed with clean desktop aesthetics, automatic mathematical proportional scaling, configurable organic animations, a native Windows RGB color picker, and a comprehensive settings panel.
