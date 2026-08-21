@@ -65,13 +65,17 @@ The subtle action column positioned on the right provides quick one-click action
 
 ## 📥 Installation
 
+### Option 1: One-Click Skin Installer (Recommended)
+1. Download **`Rainmeter-ToDo-List-Pro-v1.0.0.rmskin`** from the [Latest Release](https://github.com/wenderfl/todo-rainmeter/releases).
+2. Double-click the `.rmskin` file and click **Install**. Rainmeter will automatically install and load the skin on your desktop.
+
+### Option 2: Manual Git Clone
 1. Ensure **[Rainmeter](https://www.rainmeter.net/)** (version 4.5 or newer) is installed.
-2. Clone or download this repository directly into your Rainmeter skins directory:
+2. Clone this repository directly into your Rainmeter skins directory:
    ```bash
    git clone https://github.com/wenderfl/todo-rainmeter.git "%USERPROFILE%\Documents\Rainmeter\Skins\rainmeter-todo-list"
    ```
-3. Open the **Rainmeter Manage** window and click **Refresh all**.
-4. Navigate to `rainmeter-todo-list` > `todo` > `todo.ini` and click **Load**.
+3. Open the **Rainmeter Manage** window, click **Refresh all**, navigate to `rainmeter-todo-list` > `todo` > `todo.ini` and click **Load**.
 
 ---
 
