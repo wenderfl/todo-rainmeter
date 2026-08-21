@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/Design-Minimalist%20Glassmorphism-purple?style=for-the-badge" alt="Design" />
 </p>
 
+<p align="center">
+  <img src="assets/preview.jpg" alt="Rainmeter To-Do List Pro Showcase" width="100%" />
+</p>
+
 A modern, ultra-minimalist, and ergonomic **To-Do List** desktop skin for **[Rainmeter](https://www.rainmeter.net/)**. Designed with clean desktop aesthetics, automatic mathematical proportional scaling, configurable organic animations, a native Windows RGB color picker, and a comprehensive settings panel.
 
 ---
@@ -82,6 +86,8 @@ rainmeter-todo-list/
 │   ├── json.lua                # Lightweight Lua JSON library
 │   ├── complete.wav            # Task completion sound effect
 │   └── delete.wav              # Task deletion sound effect
+├── assets/
+│   └── preview.jpg             # Showcase preview image
 ├── config/
 │   └── config.ini              # Settings modal user interface
 ├── todo/
