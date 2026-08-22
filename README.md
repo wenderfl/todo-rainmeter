@@ -1,10 +1,9 @@
-<h1 align="center">Rainmeter To-Do List Pro</h1>
-
-
 
 <p align="center">
-  <img src="assets/preview.jpg" alt="Rainmeter To-Do List Pro Showcase" width="100%" />
+  <img src="logo.png" alt="Rainmeter To-Do List Pro Showcase" width="50%" />
 </p>
+<h1 align="center">Rainmeter To-Do List Pro</h1>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rainmeter-Skin-blue?style=for-the-badge&logo=windows" alt="Rainmeter Skin" />
