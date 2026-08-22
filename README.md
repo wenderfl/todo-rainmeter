@@ -2,7 +2,7 @@
 <p align="center">
   <img src="logo.png" alt="Rainmeter To-Do List" width="50%" />
 </p>
-<h1 align="center">Rainmeter To-Do List Pro</h1>
+<h1 align="center">Rainmeter To-Do List</h1>
 
 
 <p align="center">
